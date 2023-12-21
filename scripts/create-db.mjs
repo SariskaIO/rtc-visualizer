@@ -12,8 +12,7 @@ const {
 } = process.env
 
 AWS.config.update({
-  region: AWS_REGION,
-  endpoint: 'http://localhost:8000'
+  region: AWS_REGION
 })
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
